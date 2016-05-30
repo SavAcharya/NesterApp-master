@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CustomUI/CustomUI.iml" filepath="$PROJECT_DIR$/CustomUI/CustomUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NesterApp-master.iml" filepath="$PROJECT_DIR$/NesterApp-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TypefaceManager/TypefaceManager.iml" filepath="$PROJECT_DIR$/TypefaceManager/TypefaceManager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>

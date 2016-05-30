@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/imgvCateory"
+        android:layout_width="48dp"
+        android:layout_height="48dp" />
+
+    <com.typeface.custom.views.RobotoTextView
+        android:id="@+id/tvCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/imgvCateory"
+        android:text="category"
+        android:textColor="@android:color/black" />
+
+
+</RelativeLayout>

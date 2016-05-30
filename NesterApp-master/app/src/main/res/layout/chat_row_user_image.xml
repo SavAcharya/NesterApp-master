@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <in.sayes.nestorapp.chat.widgets.ChatLayout
+
+        android:layout_width="wrap_content" android:id="@+id/bubble"
+        android:layout_alignParentLeft="true" android:layout_alignParentStart="true"
+        android:layout_height="wrap_content"
+
+        >
+
+
+        <LinearLayout
+            android:id="@+id/chat_company_reply_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/chat_company_reply_author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/paddingMid"
+                android:paddingRight="8dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/text_gray"
+                android:text="Your investment"
+                android:textSize="16sp"
+                android:background="@drawable/gray_bubble_half"/>
+
+            <ImageView
+                android:id="@+id/message_image"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/green_bubble_half"
+                style="@style/chat_text_message_style"
+                android:layout_marginTop=".5dp"
+                android:layout_gravity="center"
+                android:maxWidth="280dp"
+                android:text="Details"
+                android:src="@drawable/ic_profile_yellow"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+
+    </in.sayes.nestorapp.chat.widgets.ChatLayout>
+</LinearLayout>

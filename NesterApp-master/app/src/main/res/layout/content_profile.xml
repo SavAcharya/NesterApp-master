@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollRegiParent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="in.sayes.nestorapp.profile.ProfileActivity"
+    tools:showIn="@layout/activity_profile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- Company Name Label -->
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <com.typeface.custom.views.RobotoEditText
+                    android:id="@+id/edttxtName"
+                    style="@style/styleEditText"
+                    android:hint="@string/name"
+                    android:inputType="textCapWords" />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+
+
+
+
+        <!-- Mobile Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <com.typeface.custom.views.RobotoEditText
+                android:id="@+id/edttxtMobile"
+                style="@style/styleEditText"
+                android:hint="@string/mobile"
+                android:inputType="phone"
+                android:maxLength="10" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <!--  Email Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <com.typeface.custom.views.RobotoEditText
+                android:id="@+id/edttxtEmail"
+                style="@style/styleEditText"
+                android:hint="Email Id (Optional)"
+                android:inputType="textEmailAddress" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <!-- Change Password Button -->
+        <com.typeface.custom.views.RobotoButton
+            android:id="@+id/btnChangePassword"
+            style="@style/styleButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/change_password" />
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+

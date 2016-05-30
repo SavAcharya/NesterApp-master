@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="dialogplus_card_shadow">#D4D4D4</color>
+  <color name="dialogplus_black_overlay">#60000000</color>
+
+    <color name="green">#ff18ab4d</color>
+    <color name="gray">#B9B8B8</color>
+    <color name="background">#ffe1edf4</color>
+    <color name="text_greeen">#ff39be71</color>
+    <color name="text_gray">#ff6e6e6e</color>
+</resources>

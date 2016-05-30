@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+
+    <in.sayes.nestorapp.chat.widgets.ChatLayout
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content" android:id="@+id/bubble"
+        android:layout_alignParentLeft="true" android:layout_alignParentStart="true"
+        android:layout_height="wrap_content" android:background="@drawable/gray_bubble"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginEnd="30dp"
+        >
+
+
+        <LinearLayout
+            android:id="@+id/chat_company_reply_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/chat_company_reply_author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/paddingMid"
+                android:paddingRight="8dp"
+                android:paddingTop="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/text_gray"
+                android:text="Sourav :"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/message_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                style="@style/chat_text_message_style"
+                android:paddingLeft="20dp"
+
+                android:autoLink="web"
+                android:maxWidth="280dp"
+                android:text="" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/time_text"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignBottom="@id/chat_company_reply_text"
+            android:layout_marginLeft="@dimen/paddingMid"
+            style="@style/chat_timings"
+            android:paddingRight="@dimen/paddingMid"
+            android:textColor="@color/text_gray"
+            android:paddingBottom="5dp"
+            android:layout_toRightOf="@id/chat_company_reply_text"
+            android:text="17:10" />
+
+
+</in.sayes.nestorapp.chat.widgets.ChatLayout>
+</RelativeLayout>

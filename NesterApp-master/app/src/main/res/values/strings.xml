@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Nestor</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sign_up">Sign In</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="project_id">12345</string>
+    <string name="title_activity_otp">OTPActivity</string>
+    <string name="resend_code">Resend Code</string>
+    <string name="login">login</string>
+    <string name="confirmation_code">Confirmation Code</string>
+    <string name="otp_validation_msg">Please enter valid OTP</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="home">HOME</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="validate_name_error_msg">Please Enter a valid name</string>
+    <string name="validate_email_error_msg">Please enter valid Email-Id</string>
+    <string name="validate_mobile_error_msg">Please enter valid mobile no</string>
+    <string name="title_activity_referral">Refer Your Friend</string>
+    <string name="referral_code">Referral Code</string>
+    <string name="send_referral">Send Referral</string>
+    <string name="title_activity_change_password">Reset Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="validation_error_old_password">Old password can not be blank</string>
+    <string name="validation_error_new_password">New password can not be blank</string>
+    <string name="validation_error_confirm_password">Confirm password can not be blank</string>
+    <string name="validation_error_password_mismatch">Confirm password doesn\'t match with new password</string>
+    <string name="password_updated">Password updated successfully!</string>
+    <string name="change_password">Reset Password</string>
+    <string name="mobile">Mobile</string>
+    <string name="name">Name</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="type_your_message">Type your message</string>
+
+
+
+<!-- Dialog -->
+    <string name="dialog_title">Dialog setup:</string>
+    <string name="footer">Footer</string>
+    <string name="header">Header</string>
+    <string name="header_title">Your title</string>
+    <string name="header_sample">SAMPLE HEADER</string>
+    <string name="footer_button_close">CLOSE</string>
+    <string name="footer_button_confirm">CONFIRM</string>
+    <string name="footer_sample">SAMPLE FOOTER</string>
+    <string name="button_bottom">Bottom</string>
+    <string name="button_center">Center</string>
+    <string name="button_top">Top</string>
+    <string name="google_plus_title">Google Plus</string>
+    <string name="google_maps_title">Maps</string>
+    <string name="google_messenger_title">Messenger</string>
+    <string name="question">Do you like Dialog Plus?</string>
+    <string name="button_like">I like it</string>
+    <string name="button_love">I love it</string>
+    <string name="view_holder">View Holder</string>
+    <string name="list_holder">List Holder</string>
+    <string name="grid_holder">Grid Holder</string>
+    <string name="show_header">Show header</string>
+    <string name="show_footer">Show footer</string>
+    <string name="chats">Chat with Nestor</string>
+
+
+</resources>
