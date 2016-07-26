@@ -29,6 +29,8 @@
     <color name="primary">#ff09dfef</color>
     <color name="secondary">#ffb4b715</color>
     <color name="overlay_light">#fff800e2</color>
+    <color name="mdtp_white">#ffffffff</color>
+    <color name="text_color">#ff2cff</color>
 
 
 </resources>

@@ -22,6 +22,10 @@ public class GSON_Signup {
     private String next_endpoint;
     private String status;
     private String user_id;
+
+
+
+    private String message;
     /**
      * input_form : {"type":"cascade_cards"}
      * name_var : user_query
@@ -40,6 +44,13 @@ public class GSON_Signup {
         this.failure_message = failure_message;
     }
 
+    public String getMessage() {
+        return message;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
+    }
     public String getNext_endpoint() {
         return next_endpoint;
     }

@@ -9,6 +9,7 @@ public interface IPreferenceConstants {
 
     String PROPERTY_APP_VERSION = "app_version";
 
+    String PREF_USERID = "userid";
     String PREF_USERNAME = "username";
 
     String PREF_MOBILE = "user_mobile";

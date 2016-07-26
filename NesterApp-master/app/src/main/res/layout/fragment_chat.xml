@@ -2,7 +2,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/root_layout"
     tools:context="in.sayes.nestorapp.chat.fragment.ChatFragment">
+
 
     <in.sayes.nestorapp.chat.widgets.SizeNotifierRelativeLayout
         android:layout_width="match_parent"
@@ -18,11 +20,14 @@
             android:paddingRight="@dimen/activity_horizontal_margin"
             android:paddingLeft="@dimen/activity_horizontal_margin"
             android:divider="@null"
-            android:dividerHeight="5dp"
+            android:dividerHeight="1dp"
             android:layout_width="match_parent"
             android:scrollbarStyle="outsideOverlay"
             android:layout_above="@+id/bottomlayout"
-            android:layout_height="match_parent"/>
+            android:layout_height="match_parent"
+android:paddingBottom="60dp"
+
+            />
 
         <LinearLayout
             android:id="@+id/bottomlayout"
@@ -30,7 +35,9 @@
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_alignParentBottom="true"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            >
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -48,13 +55,12 @@
                     android:layout_height="wrap_content"
                     android:scrollHorizontally="false"
                     android:layout_toLeftOf="@+id/send_chat_text"
-                    android:layout_toRightOf="@id/emojiButton"
-                    android:layout_toEndOf="@id/emojiButton"
+
                     android:layout_toStartOf="@+id/send_chat_text"
                     android:hint="@string/type_your_message"
                     android:maxLines="4"
                     android:singleLine="false"
-                    android:inputType="textCapSentences"
+                    android:inputType="number"
 
                     android:textSize="18sp"
                     android:paddingLeft="4dp" />
@@ -79,6 +85,15 @@
 
         </LinearLayout>
 
+        <Button
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:id="@+id/btnShowOptions"
+    android:text="View Options"
+    android:layout_alignParentBottom="true"
+    android:layout_below="@+id/l"
+    />
     </in.sayes.nestorapp.chat.widgets.SizeNotifierRelativeLayout>
+
 
 </FrameLayout>

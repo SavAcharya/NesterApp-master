@@ -9,6 +9,8 @@ import android.renderscript.Element;
 import android.renderscript.RenderScript;
 import android.renderscript.ScriptIntrinsicBlur;
 import android.support.v4.content.ContextCompat;
+import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.Toast;
 
@@ -36,7 +38,10 @@ public class UIUtils {
         Toast.makeText(context, message, Toast.LENGTH_SHORT).show();
     }
 
-
+public static void hideKeyBoard(Context context, View v){
+    InputMethodManager imm = (InputMethodManager) context.getSystemService(Context.INPUT_METHOD_SERVICE);
+    imm.hideSoftInputFromWindow(v.getWindowToken(), 0);
+}
     /**
      * @param context
      * @param smallBitmap
